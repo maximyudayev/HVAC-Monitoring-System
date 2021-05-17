@@ -1,0 +1,19 @@
+# directories
+.DS_Store
+.vscode
+coverage
+
+# archives
+*.zip
+
+# sensor debug logs
+sensor_log*
+
+# object files and compiled libs
+*.o
+*.so
+
+# transient image files
+*.odt
+*.odg
+*.pdf

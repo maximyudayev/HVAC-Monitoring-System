@@ -1,5 +1,10 @@
 # HVAC Remote Monitoring System
-The repository contains POSIX multi-threaded, socket source code for the system design assignment of the System Software course at KU Leuven - Campus GroupT in academic year 2019-2020, taught by the awesome Stef :wink:
+Distributed sensing, monitoring and controls HVAC server backend system, built on POSIX threads and TCP sockets.  
+
+<p align="center">
+  <img src="images/overview.png" alt="Overview of continuous operation of the prosthesis" />
+</p>
+
 
 ## System Design Choice Motivation
 For my shared buffer implementation I decided to use rwlock for data structure and another rwlock for a shared variable indicating the EOF in shared buffer (written to from connmgr, read from datamgr and storagemgr).
